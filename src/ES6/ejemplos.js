@@ -15,7 +15,9 @@ export default function ClaseEjemplo(){
     }
 
     reset(){
-      console.log('Volvemos a cero');
+      let data = {a: "100", b: "200", c: "0"};
+      var resultado;
+      console.log('Volvemos a cero' + (resultado = data[2] - data[1]));      
     }
   }
 
