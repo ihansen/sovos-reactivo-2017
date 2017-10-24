@@ -15,7 +15,7 @@ export default function ClaseEjemplo(){
     }
 
     reset(){
-      console.log('Volvemos a cero' );      
+      console.log('Volvemos a cero');
     }
   }
 
